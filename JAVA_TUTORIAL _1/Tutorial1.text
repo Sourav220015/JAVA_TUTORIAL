@@ -1,0 +1,77 @@
+-------------------=== Tutorial-1--------------------------------
+
+Java was developed by SUN MICROSYSTEM in year 1995,
+
+James Goshling => Father of java
+
+Java was previoius named by Oak.Project Oak was start by green team in 1991. 
+Why Oak? 
+=> Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
+
+According to James Gosling to find a unique name by green team, "Java was one of the top choices along with Silk".
+Since Java was so unique, most of the team members preferred Java than other names.
+
+Java is an island in Indonesia where the first coffee was produced (called Java coffee).
+
+JAVA IS PLATFORM INDEPENDENT:
+
+Human understandable language (or High level language) compiled by compiler and produce machine understandable language(or low level language).
+
+after compilation of java file compile produce a byte code with extension .class.. 
+
+The .class file is executable in every computer by the particular computer JVM(pre installed),JDK and JDE.
+so,java is platform independent.
+
+JVM:
+JAVA virtual machine interpreted .class file and take library from JRE to run a .class file.
+
+JRE:
+set of software tools and library which are used for developing java application.
+JRE= JVM + libraries,
+
+JDK:
+Java dvelopement kits are software developement enviornment used to develope java application.
+Javac(to compile java) and Java(to run java) keyword present here.  
+
+JDK = JVM+JRE;
+
+Some tghings need to know before statrting java:
+1) Java is case sensitive means int a = 4; does not implies int A = 4;
+	MyName != myName;
+2) one can not redeclare a variable like javascript.
+3) It is not a interpreted language so don't woory about intendetion.	
+
+-----------------------====First Program====-------------------
+To craete a java program you must need a class and a main method included in class....
+
+Input: -
+class firstProgram{
+	public ststic void main(String args[]){
+		System.out.println("Hello World!");
+	}
+}
+
+Output:-
+	Hello World!
+
+
+..............
+
+class ==> keyword to declare a class.
+public ==> access modifier
+main ==> method name/ starting point of a program
+void ==> return type of main method
+System ==>class
+out ==> object of System class
+println() ==> method to print something
+String args[] ==> command line argument
+
+
+
+--------------------------------------
+
+
+
+
+
+
